@@ -54,6 +54,12 @@ const RegistrationFormComponentContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
   }
+
+  @media (max-width: 425px) {
+    .form-container {
+      padding: 0;
+    }
+  }
 `;
 
 export const RegistrationForm = () => {
