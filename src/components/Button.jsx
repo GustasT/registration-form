@@ -3,18 +3,17 @@ import styled from "styled-components";
 
 const StyledButton = styled.button`
   display: flex;
-  align-items: center; /* Center vertically */
+  align-items: center;
   justify-content: center;
   border: 1px solid;
   border-color: ${(props) =>
-    props.backgroundColor
-      ? "transparent"
-      : "lightgray"}; /* Conditional border color */
+    props.backgroundColor ? "transparent" : "lightgray"};
   border-radius: 5px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 10px 1rem 10px 1rem;
   background-color: ${(props) => props.backgroundColor || "transparent"};
+  margin: 1rem 0 1rem 0;
 
-  color: ${(props) => props.color || props.theme.text.onBody};
+  color: ${(props) => props.color};
 
   cursor: pointer;
 
