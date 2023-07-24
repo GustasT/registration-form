@@ -3,7 +3,6 @@ import Button from "./Button";
 import googleLogo from "../assets/icons/google-icon.png";
 import facebookLogo from "../assets/icons/facebook-icon-negative.png";
 import styled from "styled-components";
-import { Container } from "./Container";
 
 const StyledForm = styled.form`
   display: flex;
@@ -19,13 +18,13 @@ const StyledForm = styled.form`
     padding: 10px;
     padding-left: 40px;
     margin-bottom: 1rem;
-    border: 2px solid lightgray; /* Default border color */
+    border: 2px solid lightgray;
     border-radius: 5px;
-    transition: border-color 0.2s; /* Add a smooth transition effect */
+    transition: border-color 0.2s;
 
     &:focus {
-      outline: none; /* Remove the default focus outline */
-      border-color: #f2877d; /* Change the border color on focus */
+      outline: none;
+      border-color: #f2877d;
     }
   }
 

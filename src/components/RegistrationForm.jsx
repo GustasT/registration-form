@@ -14,8 +14,8 @@ const RegistrationFormComponentContainer = styled.div`
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Align items to the bottom of the container */
-    align-items: center; /* Center items horizontally within the container */
+    justify-content: flex-end;
+    align-items: center;
 
     background-color: #f2877d;
     padding: 7rem 3rem 7rem 3rem;
@@ -36,10 +36,9 @@ const RegistrationFormComponentContainer = styled.div`
     }
 
     .image-brand {
-      /* Add styles for the top left text */
       position: absolute;
-      top: 20px; /* Adjust the top value to position it vertically */
-      left: 20px; /* Adjust the left value to position it horizontally */
+      top: 20px;
+      left: 20px;
       color: white;
       font-size: 18px;
       background-color: #f2877d;

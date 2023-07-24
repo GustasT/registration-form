@@ -8,9 +8,7 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
 }
 
-html{
-  /* font-size: 24px; */
-}
+
 body{
   font-family: 'Poppins', sans-serif;
 }
